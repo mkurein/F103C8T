@@ -108,11 +108,12 @@ arm-none-eabi-size Debug/primGPT.elf
 
 - **[DEBUG_GUIDE.md](DEBUG_GUIDE.md)** — 🐛 полное руководство по отладке с Cortex-Debug (для начинающих)
 - **[VSCODE_GUIDE.md](VSCODE_GUIDE.md)** — полное руководство по VS Code
-- **Русская документация в корне проекта:**
-  - [PROJECT_FIRMWARE_LESSON.md](PROJECT_FIRMWARE_LESSON.md) — архитектура firmware
-  - [README_RAM_RTOS.md](README_RAM_RTOS.md) — диагностика памяти и RTOS
-  - [README_UART.md](README_UART.md) — протокол UART
-  - [README_INTERRUPTS.md](README_INTERRUPTS.md) — система прерываний
+- **Карта всей документации:** [docs/INDEX.md](../INDEX.md)
+- **Разборы по темам:**
+  - [PROJECT_FIRMWARE_LESSON.md](../lessons/PROJECT_FIRMWARE_LESSON.md) — архитектура firmware
+  - [README_RAM_RTOS.md](../notes/README_RAM_RTOS.md) — диагностика памяти и RTOS
+  - [README_UART.md](../notes/README_UART.md) — протокол UART
+  - [README_INTERRUPTS.md](../notes/README_INTERRUPTS.md) — система прерываний
 
 ---
 
@@ -191,9 +192,9 @@ arm-none-eabi-size Debug/primGPT.elf
 - **Core:** ARM Cortex-M3, 72 MHz
 - **Flash:** 64 KB (128 KB на некоторых чипах)
 - **RAM:** 20 KB (ограничено! Следите за памятью)
-- **FreeRTOS Heap:** 14 KB (70% RAM)
+- **FreeRTOS Heap:** 10 KB (`configTOTAL_HEAP_SIZE`, 50% RAM)
 
-⚠️ **Внимание:** RAM очень ограничен! Используйте диагностику памяти (см. [README_RAM_RTOS.md](README_RAM_RTOS.md)).
+⚠️ **Внимание:** RAM очень ограничен! Используйте диагностику памяти (см. [README_RAM_RTOS.md](../notes/README_RAM_RTOS.md)).
 
 ---
 

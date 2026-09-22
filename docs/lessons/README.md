@@ -11,6 +11,9 @@
 5. `05_SPI_FRAM_DRIVER.md`
 6. `06_DEBUG_IN_CURSOR_OR_ANTIGRAVITY.md`
 
+Большой разбор всей прошивки: `PROJECT_FIRMWARE_LESSON.md`.
+Карта документации проекта: [../INDEX.md](../INDEX.md).
+
 ## Как использовать уроки
 
 - Читайте по порядку.

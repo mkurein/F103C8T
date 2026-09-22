@@ -20,7 +20,7 @@ Ctrl+Shift+P → Extensions: Install Extensions → mcu-debug.rtos-views
 
 ## Настройка launch.json
 
-Открыть [.vscode/launch.json](.vscode/launch.json) и добавить `"rtos": "FreeRTOS"` в конфигурацию отладки:
+Открыть [.vscode/launch.json](../../.vscode/launch.json) и добавить `"rtos": "FreeRTOS"` в конфигурацию отладки:
 
 ```json
 {
@@ -128,10 +128,10 @@ Ctrl+Shift+D — откроется панель Run and Debug
 ### Сценарий 1 — Проверка стека при нагрузке
 
 1. `F5` — запустить отладку
-2. Поставить breakpoint в `Uart1Task` ([main.c:~строка с обработкой команды](Core/Src/main.c))
+2. Поставить breakpoint в `Uart1Task` ([main.c:~строка с обработкой команды](../../Core/Src/main.c))
 3. Отправить команду через UART1
 4. Когда программа остановится — посмотреть в RTOS Views → Tasks → `Uart1Task` → **Stack Free**
-5. Если мало — увеличить стек в [main.c](Core/Src/main.c) (`osThreadNew` параметр `stack_size`)
+5. Если мало — увеличить стек в [main.c](../../Core/Src/main.c) (`osThreadNew` параметр `stack_size`)
 
 ### Сценарий 2 — Мониторинг heap в реальном времени
 

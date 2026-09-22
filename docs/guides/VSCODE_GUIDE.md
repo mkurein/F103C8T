@@ -98,8 +98,9 @@ F103C8T/
 ├── primGPT.ioc                 # STM32CubeMX проект
 ├── STM32F103C8TX_FLASH.ld      # Linker script (Flash)
 ├── primGPT Debug.cfg           # OpenOCD конфигурация
-├── CLAUDE.md                   # Инструкции для AI-ассистента
-└── VSCODE_GUIDE.md             # Это руководство
+├── AGENTS.md / CLAUDE.md       # Инструкции для AI-ассистентов
+└── docs/                       # Документация (карта: docs/INDEX.md)
+    └── guides/VSCODE_GUIDE.md  # Это руководство
 ```
 
 ---
