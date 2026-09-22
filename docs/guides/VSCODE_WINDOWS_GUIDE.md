@@ -284,7 +284,7 @@ Ctrl+Shift+P — `Tasks: Run Task` — `Flash`.
       ],
       "options": {
         "env": {
-          "PATH": "C:\\ST\\STM32CubeIDE_1.17.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.openocd.win32_2.4.100.202409170845\\tools\\bin;${env:PATH}"
+          "PATH": "C:\\ST\\STM32CubeIDE_1.17.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.openocd.win32_2.4.100.202501161620\\tools\\bin;${env:PATH}"
         }
       },
       "problemMatcher": [],
