@@ -56,5 +56,6 @@
 | [guides/](guides/) | QUICKSTART, VS Code (macOS / Windows), Cursor + OpenOCD, DEBUG_GUIDE, RTOS views |
 | [notes/](notes/) | BOOT_ALGORITHM, README_UART (таймаут), README_RAM_RTOS (память), README_INTERRUPTS |
 | [lessons/](lessons/) | мини-уроки 01–06, PROJECT_FIRMWARE_LESSON |
+| [`tools/RUN.md`](../tools/RUN.md) | хост `uart_check.py` / `.sh` из PowerShell |
 
 Если модели нужен кусок оттуда — давать раздел, не файл целиком.
